@@ -9,9 +9,9 @@ https://www.apachefriends.org/jp/download_success.html
 でexeを落としてインストール
 
 [composerインストール]
-./exe/Composer-Setup.exeでインストール
+Composer-Setup.exeをダウンロードしてインストール
 https://getcomposer.org/download/
 
-[powershell]
-cd C:\xampp\htdocs\lab // 入れたいディレクトリ
+[windowsでpowershellを起動]
+cd C:\xampp\htdocs\lab\test // 入れたいディレクトリに移動
 composer require abraham/twitteroauth
