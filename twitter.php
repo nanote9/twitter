@@ -81,8 +81,6 @@ $param = array(
 $images = [];
 get_imges($connection, $param, $images);
 
-$tweets = $connection->get('search/tweets', $param)->statuses;
-
 $dir_path = './img/';
 if(!file_exists($dir_path ) ){
 	mkdir($dir_path, 0755);
