@@ -73,7 +73,7 @@ function check_ext(string $url){
 }
 
 $param = array(
-    "q"=> 'filter:images AND JustinBieber',
+    "q"=> 'filter:images AND JustinBieber -rt',
     "count"=>IMEGES_NUM,
     "result_type"=>"recent",
     "include_entities"=>true
